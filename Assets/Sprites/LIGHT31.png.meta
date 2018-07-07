@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: a625e8c88efab33439ebc9ac30546458
+timeCreated: 1454255157
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: LIGHT31_0
+    21300002: LIGHT31_1
+    21300004: LIGHT31_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: LIGHT31_0
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 813
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: LIGHT31_1
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 432
+        width: 690
+        height: 689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 228.9563, y: -43.701813}
+        - {x: 228.9563, y: 67.29819}
+        - {x: 174.9563, y: 160.29819}
+        - {x: 103.9563, y: 212.29819}
+        - {x: 71.9563, y: 227.29819}
+        - {x: -61.0437, y: 227.29819}
+        - {x: -151.0437, y: 183.29819}
+        - {x: -227.0437, y: 77.29819}
+        - {x: -227.0437, y: -34.701813}
+        - {x: -205.0437, y: -109.70181}
+        - {x: -158.0437, y: -162.70181}
+        - {x: -107.0437, y: -195.70181}
+        - {x: -11.043701, y: -226.70181}
+        - {x: 26.956299, y: -226.70181}
+        - {x: 64.9563, y: -217.70181}
+        - {x: 146.9563, y: -171.70181}
+        - {x: 194.9563, y: -122.70181}
+      - - {x: -143.0437, y: -87.70181}
+        - {x: -151.0437, y: -94.70181}
+        - {x: -152.0437, y: -95.70181}
+        - {x: -151.0437, y: -95.70181}
+        - {x: -154.0437, y: -92.70181}
+        - {x: -153.0437, y: -86.70181}
+        - {x: -166.0437, y: -61.701813}
+        - {x: -171.0437, y: -58.701813}
+        - {x: -172.0437, y: -58.701813}
+        - {x: -175.0437, y: -55.701813}
+        - {x: -174.0437, y: -57.701813}
+        - {x: -171.0437, y: -57.701813}
+        - {x: -167.0437, y: -53.701813}
+        - {x: -167.0437, y: -49.701813}
+        - {x: -169.0437, y: -44.701813}
+        - {x: -174.0437, y: -26.701813}
+        - {x: -178.0437, y: -22.701813}
+        - {x: -178.0437, y: -23.701813}
+        - {x: -177.0437, y: -22.701813}
+        - {x: -174.0437, y: -17.701813}
+        - {x: -176.0437, y: 31.298187}
+        - {x: -179.0437, y: 33.298187}
+        - {x: -182.0437, y: 36.298187}
+        - {x: -182.0437, y: 35.298187}
+        - {x: -176.0437, y: 40.298187}
+        - {x: 23.956299, y: 185.29819}
+        - {x: 26.956299, y: 188.29819}
+        - {x: 25.956299, y: 189.29819}
+        - {x: 24.956299, y: 188.29819}
+        - {x: 27.956299, y: 185.29819}
+        - {x: 31.956299, y: 183.29819}
+        - {x: 40.9563, y: 184.29819}
+        - {x: 144.9563, y: 126.29819}
+        - {x: 148.9563, y: 122.29819}
+        - {x: 148.9563, y: 123.29819}
+        - {x: 147.9563, y: 122.29819}
+        - {x: 140.9563, y: 119.29819}
+        - {x: 155.9563, y: 92.29819}
+        - {x: 160.9563, y: 96.29819}
+        - {x: 163.9563, y: 100.29819}
+        - {x: 161.9563, y: 99.29819}
+        - {x: 161.9563, y: 95.29819}
+        - {x: 164.9563, y: 92.29819}
+        - {x: 171.9563, y: 77.29819}
+        - {x: 167.9563, y: -62.701813}
+        - {x: 168.9563, y: -65.70181}
+        - {x: 170.9563, y: -67.70181}
+        - {x: 165.9563, y: -67.70181}
+      - - {x: -226.0437, y: 33.298187}
+        - {x: -227.0437, y: 32.298187}
+        - {x: -227.0437, y: 22.298187}
+        - {x: -222.0437, y: 22.298187}
+        - {x: -220.0437, y: 24.298187}
+        - {x: -220.0437, y: 31.298187}
+        - {x: -221.0437, y: 33.298187}
+    - name: LIGHT31_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 784
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

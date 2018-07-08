@@ -6,40 +6,32 @@ public class ControlScript : MonoBehaviour {
 
 	public List<GameObject> btn;
 	public GameObject startBtn;
-	float h;
-	float v;
-
-	bool isAxisinUse = false;
 
 	// Use this for initialization
 	void Start () {
 	}
-
+	/*
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetButtonDown ("Submit")){
 			startBtn.GetComponent<StartScript> ().StartButton();
 		}
-			
-		//P1* CONTROLLER:
+
+		//P1 CONTROLLER:
 		if (PlayerPrefs.GetInt ("Player") == 1) {
 			if ((Input.GetButtonDown ("Fire1P1")) && (PlayerPrefs.GetInt ("Start") == 2)) {
-				Debug.Log ("P2!!!");
 				btn [0].GetComponent<ButtonScript> ().PressedButton ();
 				btn [0].GetComponent<ButtonScript> ().BlinkOn ();
 			}
 			if ((Input.GetButtonDown ("Fire2P1")) && (PlayerPrefs.GetInt ("Start") == 2)) {
-				Debug.Log ("P2!!!");
 				btn [1].GetComponent<ButtonScript> ().PressedButton ();
 				btn [1].GetComponent<ButtonScript> ().BlinkOn ();
 			}
 			if ((Input.GetButtonDown ("Fire3P1")) && (PlayerPrefs.GetInt ("Start") == 2)) {
-				Debug.Log ("P2!!!");
 				btn [2].GetComponent<ButtonScript> ().PressedButton ();
 				btn [2].GetComponent<ButtonScript> ().BlinkOn ();
 			}
 			if ((Input.GetButtonDown ("Fire4P1")) && (PlayerPrefs.GetInt ("Start") == 2)) {
-				Debug.Log ("P2!!!");
 				btn [3].GetComponent<ButtonScript> ().PressedButton ();
 				btn [3].GetComponent<ButtonScript> ().BlinkOn ();
 			}
@@ -84,5 +76,5 @@ public class ControlScript : MonoBehaviour {
 		}
 
 
-	}
+	}*/
 }

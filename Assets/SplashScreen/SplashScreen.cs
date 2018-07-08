@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class SplashScreen : MonoBehaviour {
 
 	public string scene;
+	public float sec;
 
     // Use this for initialization
     void Start() {
@@ -18,7 +19,7 @@ public class SplashScreen : MonoBehaviour {
 
     IEnumerator Splash()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(sec);
         SceneManager.LoadScene(scene);
     }
 

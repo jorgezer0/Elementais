@@ -13,17 +13,16 @@ public class ControlerTest : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		for (int i = 0; i < 11; i++) {
+		for (int i = 1; i < 11; i++) {
 			if (Input.GetKey ("joystick 1 button " + i.ToString ())) {
 				print ("joystick 1 button " + i.ToString ());
 			}
 		}
-
-		//h = Mathf.FloorToInt(Mathf.Abs(Input.GetAxisRaw ("Horizontal")));
-		h = Input.GetAxisRaw ("Horizontal");
-		print ("Horizontal:" + h);
-		v = Input.GetAxisRaw ("Vertical");
-		print ("Vertical:" + v);
-
+		/*
+		h = Input.GetAxis ("Horizontal");
+		print (h);
+		v = Input.GetAxis ("Vertical");
+		print (v);
+		*/
 	}
 }

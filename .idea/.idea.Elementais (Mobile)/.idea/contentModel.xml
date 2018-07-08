@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\zerap\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Elementais (Mobile).-2138130295.00" t="ExcludeRecursive" />
+    <e p="F:\UNITY PROJECTS\Elementais (Mobile)" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="ControlerTest.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="ButtonScript.cs" t="Include" />
+          <e p="ControlScript.cs" t="Include" />
+          <e p="GameOver2P.cs" t="Include" />
+          <e p="GameOverScript.cs" t="Include" />
+          <e p="MainScript.cs" t="Include" />
+          <e p="MainScript_2P.cs" t="Include" />
+          <e p="PauseScript.cs" t="Include" />
+          <e p="RestartScript.cs" t="Include" />
+          <e p="StartScript.cs" t="Include" />
+          <e p="SunshineScript.cs" t="Include" />
+          <e p="TimerScript.cs" t="Include" />
+          <e p="TitleMusicScript.cs" t="Include" />
+          <e p="TitleScript.cs" t="Include" />
+          <e p="ToGame.cs" t="Include" />
+        </e>
+        <e p="SplashScreen" t="Include">
+          <e p="SplashScreen.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Elementais (Mobile).sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

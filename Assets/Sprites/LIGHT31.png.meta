@@ -1,20 +1,21 @@
 fileFormatVersion: 2
 guid: a625e8c88efab33439ebc9ac30546458
-timeCreated: 1454255157
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: LIGHT31_0
     21300002: LIGHT31_1
     21300004: LIGHT31_2
-  serializedVersion: 2
+  externalObjects: {}
+  serializedVersion: 5
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -24,36 +25,78 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 1024
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 16
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 59
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: LIGHT31_0
+    - serializedVersion: 2
+      name: LIGHT31_0
       rect:
         serializedVersion: 2
         x: 429
@@ -64,7 +107,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LIGHT31_1
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca417d6c520f1f2428609d28ae87dd4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LIGHT31_1
       rect:
         serializedVersion: 2
         x: 433
@@ -74,80 +126,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 228.9563, y: -43.701813}
-        - {x: 228.9563, y: 67.29819}
-        - {x: 174.9563, y: 160.29819}
-        - {x: 103.9563, y: 212.29819}
-        - {x: 71.9563, y: 227.29819}
-        - {x: -61.0437, y: 227.29819}
-        - {x: -151.0437, y: 183.29819}
-        - {x: -227.0437, y: 77.29819}
-        - {x: -227.0437, y: -34.701813}
-        - {x: -205.0437, y: -109.70181}
-        - {x: -158.0437, y: -162.70181}
-        - {x: -107.0437, y: -195.70181}
-        - {x: -11.043701, y: -226.70181}
-        - {x: 26.956299, y: -226.70181}
-        - {x: 64.9563, y: -217.70181}
-        - {x: 146.9563, y: -171.70181}
-        - {x: 194.9563, y: -122.70181}
-      - - {x: -143.0437, y: -87.70181}
-        - {x: -151.0437, y: -94.70181}
-        - {x: -152.0437, y: -95.70181}
-        - {x: -151.0437, y: -95.70181}
-        - {x: -154.0437, y: -92.70181}
-        - {x: -153.0437, y: -86.70181}
-        - {x: -166.0437, y: -61.701813}
-        - {x: -171.0437, y: -58.701813}
-        - {x: -172.0437, y: -58.701813}
-        - {x: -175.0437, y: -55.701813}
-        - {x: -174.0437, y: -57.701813}
-        - {x: -171.0437, y: -57.701813}
-        - {x: -167.0437, y: -53.701813}
-        - {x: -167.0437, y: -49.701813}
-        - {x: -169.0437, y: -44.701813}
-        - {x: -174.0437, y: -26.701813}
-        - {x: -178.0437, y: -22.701813}
-        - {x: -178.0437, y: -23.701813}
-        - {x: -177.0437, y: -22.701813}
-        - {x: -174.0437, y: -17.701813}
-        - {x: -176.0437, y: 31.298187}
-        - {x: -179.0437, y: 33.298187}
-        - {x: -182.0437, y: 36.298187}
-        - {x: -182.0437, y: 35.298187}
-        - {x: -176.0437, y: 40.298187}
-        - {x: 23.956299, y: 185.29819}
-        - {x: 26.956299, y: 188.29819}
-        - {x: 25.956299, y: 189.29819}
-        - {x: 24.956299, y: 188.29819}
-        - {x: 27.956299, y: 185.29819}
-        - {x: 31.956299, y: 183.29819}
-        - {x: 40.9563, y: 184.29819}
-        - {x: 144.9563, y: 126.29819}
-        - {x: 148.9563, y: 122.29819}
-        - {x: 148.9563, y: 123.29819}
-        - {x: 147.9563, y: 122.29819}
-        - {x: 140.9563, y: 119.29819}
-        - {x: 155.9563, y: 92.29819}
-        - {x: 160.9563, y: 96.29819}
-        - {x: 163.9563, y: 100.29819}
-        - {x: 161.9563, y: 99.29819}
-        - {x: 161.9563, y: 95.29819}
-        - {x: 164.9563, y: 92.29819}
-        - {x: 171.9563, y: 77.29819}
-        - {x: 167.9563, y: -62.701813}
-        - {x: 168.9563, y: -65.70181}
-        - {x: 170.9563, y: -67.70181}
-        - {x: 165.9563, y: -67.70181}
-      - - {x: -226.0437, y: 33.298187}
-        - {x: -227.0437, y: 32.298187}
-        - {x: -227.0437, y: 22.298187}
-        - {x: -222.0437, y: 22.298187}
-        - {x: -220.0437, y: 24.298187}
-        - {x: -220.0437, y: 31.298187}
-        - {x: -221.0437, y: 33.298187}
-    - name: LIGHT31_2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8b178d7d315dd4f870f56eb2f16fa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LIGHT31_2
       rect:
         serializedVersion: 2
         x: 430
@@ -158,7 +147,22 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29bf2797a8688544aebe9c90c4f5c07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

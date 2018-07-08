@@ -14,7 +14,7 @@ public class RestartScript : MonoBehaviour {
 	
 	void Update(){
 		if (Input.GetButtonDown ("Submit")){
-			SceneManager.LoadScene (0);
+			SceneManager.LoadScene (1);
 		}
 
 		if (Input.touchCount == 1)
@@ -25,7 +25,7 @@ public class RestartScript : MonoBehaviour {
 			{
 				if ((isOn) && (statusChanged)) {
 					Debug.Log ("TOUCH!");
-					SceneManager.LoadScene (0);
+					SceneManager.LoadScene (1);
 					statusChanged = false;
 				}
 			}
